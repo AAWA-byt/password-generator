@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Password Generator</title>
+    </head>
+    <body>
+        <div class="App">
+            <div class="container">
+                <h1>Password Generator</h1>
+                <input type="text" id="passwd" />
+                <ul>
+                    <li><input type="checkbox" id="upperCase"/>Capital letters</li>
+                    <li><input type="checkbox" id="upperCase" />Numbers</li>
+                    <li><input type="checkbox" id="upperCase" />Special characters</li>
+                </ul>
+                <button onclick="generatePasswd()"><strong>Generate</strong></button>
+                <button onclick="copyPasswd()"><strong>Copy to clipboard</strong></button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
