@@ -69,11 +69,3 @@ button:hover {
   background-color: rgb(61, 60, 60);
   cursor: pointer;
 }
-
-/* ul design */
-ul {
-  text-align: left;
-  margin-bottom: 30px;
-  list-style-type: none;
-  padding-right: 180px;
-}
