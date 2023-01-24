@@ -24,5 +24,6 @@ const generateSecurePassword = () => {
 // functions for copyPasswd() 
 function copyPasswd() {
     navigator.clipboard.writeText(passwd_field.value);
+    alert('Generated password was copied to clipboard')
 }
 
